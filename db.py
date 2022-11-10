@@ -1,7 +1,7 @@
 from pymongo import MongoClient
 
 
-client = MongoClient("mongodb+srv://ЩЛ!")
+client = MongoClient("mongodb+srv:")
 usersdb = client.users
 coll = usersdb.funtik
 
